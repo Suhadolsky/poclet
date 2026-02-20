@@ -1,0 +1,81 @@
+---
+import { SITE_TITLE } from '../consts';
+import HeaderLink from './HeaderLink.astro';
+---
+
+<header>
+	<div class="ad-placeholder header-ad">
+		<span class="ad-text">Advertising Space (728x90)</span>
+	</div>
+	<nav>
+		<h2><a href="/">{SITE_TITLE}</a></h2>
+		<div class="internal-links">
+			<HeaderLink href="/">Home</HeaderLink>
+			<HeaderLink href="/blog">Reviews & News</HeaderLink>
+			<HeaderLink href="/about">About</HeaderLink>
+		</div>
+		<div class="social-links">
+			<!-- Social placeholders -->
+		</div>
+	</nav>
+</header>
+<style>
+	header {
+		margin: 0;
+		padding: 0 1em;
+		background: white;
+		box-shadow: 0 2px 8px rgba(var(--black), 5%);
+	}
+	h2 {
+		margin: 0;
+		font-size: 1em;
+	}
+
+	h2 a,
+	h2 a.active {
+		text-decoration: none;
+	}
+	nav {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+	}
+	nav a {
+		padding: 1em 0.5em;
+		color: var(--black);
+		border-bottom: 4px solid transparent;
+		text-decoration: none;
+	}
+	nav a.active {
+		text-decoration: none;
+		border-bottom-color: var(--accent);
+	}
+	.social-links,
+	.social-links a {
+		display: flex;
+	}
+	@media (max-width: 720px) {
+		.social-links {
+			display: none;
+		}
+	}
+	
+	/* Ad Styles */
+	.ad-placeholder {
+		background-color: #f0f0f0;
+		border: 1px dashed #ccc;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		color: #999;
+		font-size: 0.8em;
+		margin: 0 auto;
+	}
+	.header-ad {
+		width: 100%;
+		max-width: 728px;
+		height: 90px;
+		margin-bottom: 1em;
+		margin-top: 1em;
+	}
+</style>

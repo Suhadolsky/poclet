@@ -1,0 +1,94 @@
+---
+import Layout from '../layouts/BlogPost.astro';
+---
+
+<Layout
+	title="Handheld Firmware Hub (2026)"
+	description="The ultimate list of Custom Firmwares (CFW) and Stock OS for retro handhelds. OnionOS, GarlicOS, GammaOS, and more."
+	pubDate={new Date('Feb 22 2026')}
+	heroImage="/blog-placeholder-about.jpg"
+>
+	<p>Stop using the stock SD card. Stop using the stock firmware. Upgrade your device now.</p>
+
+	<div class="table-container">
+		<table>
+			<thead>
+				<tr>
+					<th>Device</th>
+					<th>Best Custom FW</th>
+					<th>Alternative</th>
+					<th>Download / Guide</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td><strong>Miyoo Mini / Plus</strong></td>
+					<td>🧅 <strong>OnionOS</strong></td>
+					<td>MiniUI (Simple)</td>
+					<td><a href="/blog/onion-os-guide-2026">Installation Guide</a></td>
+				</tr>
+				<tr>
+					<td><strong>Anbernic RG35XX / Plus</strong></td>
+					<td>🧄 <strong>GarlicOS</strong></td>
+					<td>MinUI</td>
+					<td><a href="https://www.patreon.com/posts/garlicos-for-76561333" target="_blank">Download</a></td>
+				</tr>
+				<tr>
+					<td><strong>Retroid Pocket 3+/4/4Pro</strong></td>
+					<td>🤖 <strong>Android (Stock)</strong></td>
+					<td>GammaOS (Lite)</td>
+					<td><a href="https://github.com/TheGammaSqueeze/GammaOS" target="_blank">GammaOS GitHub</a></td>
+				</tr>
+				<tr>
+					<td><strong>Steam Deck (LCD/OLED)</strong></td>
+					<td>💨 <strong>SteamOS</strong></td>
+					<td>Bazzite (Fedora)</td>
+					<td><a href="https://bazzite.gg/" target="_blank">Bazzite</a></td>
+				</tr>
+				<tr>
+					<td><strong>Anbernic RG405M / RG505</strong></td>
+					<td>🌀 <strong>GammaOS</strong></td>
+					<td>Stock Android</td>
+					<td><a href="https://github.com/TheGammaSqueeze/GammaOS" target="_blank">GammaOS Guide</a></td>
+				</tr>
+				<tr>
+					<td><strong>Powkiddy RGB30</strong></td>
+					<td>ARKOS</td>
+					<td>JELOS / Rocknix</td>
+					<td><a href="https://github.com/christianhaitian/arkos" target="_blank">ArkOS Wiki</a></td>
+				</tr>
+			</tbody>
+		</table>
+	</div>
+
+	<h3>Why Custom Firmware?</h3>
+	<ul>
+		<li><strong>Better Performance:</strong> Often unlocks higher clock speeds.</li>
+		<li><strong>Better UI:</strong> Stock menus are usually ugly and confusing.</li>
+		<li><strong>Sleep Mode:</strong> Features like "Game Switcher" on OnionOS are game-changers.</li>
+	</ul>
+
+	<p><em>Links checked: February 2026.</em></p>
+</Layout>
+
+<style>
+	.table-container {
+		overflow-x: auto;
+	}
+	table {
+		width: 100%;
+		border-collapse: collapse;
+		margin: 2em 0;
+	}
+	th, td {
+		padding: 12px;
+		border: 1px solid #ddd;
+		text-align: left;
+	}
+	th {
+		background-color: #f4f4f4;
+	}
+	tr:nth-child(even) {
+		background-color: #f9f9f9;
+	}
+</style>

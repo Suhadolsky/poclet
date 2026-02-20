@@ -16,4 +16,23 @@ const blog = defineCollection({
 		}),
 });
 
-export const collections = { blog };
+const devices = defineCollection({
+	loader: glob({ base: './src/content/devices', pattern: '**/*.{md,mdx}' }),
+	schema: ({ image }) =>
+		z.object({
+			name: z.string(),
+			manufacturer: z.string(),
+			releaseDate: z.string().optional(),
+			price: z.string().optional(),
+			chipset: z.string().optional(),
+			screen: z.string().optional(),
+			battery: z.string().optional(),
+			os: z.string().optional(),
+			rating: z.number().min(1).max(10).optional(),
+			pros: z.array(z.string()).optional(),
+			cons: z.array(z.string()).optional(),
+			heroImage: image().optional(),
+		}),
+});
+
+export const collections = { blog, devices };

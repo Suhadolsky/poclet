@@ -1,0 +1,128 @@
+---
+import type { CollectionEntry } from 'astro:content';
+import BaseHead from '../components/BaseHead.astro';
+import Header from '../components/Header.astro';
+import Footer from '../components/Footer.astro';
+import FormattedDate from '../components/FormattedDate.astro';
+
+type Props = CollectionEntry<'devices'>['data'];
+
+const { name, manufacturer, releaseDate, price, chipset, screen, battery, os, rating, pros, cons, heroImage } = Astro.props;
+---
+
+<html lang="en">
+	<head>
+		<BaseHead title={`${name} Specs & Review - PocketCore`} description={`Full specs, review, and firmware guide for the ${name} by ${manufacturer}.`} />
+		<style>
+			main {
+				width: calc(100% - 2em);
+				max-width: 100%;
+				margin: 0;
+			}
+			.hero-image {
+				width: 100%;
+			}
+			.hero-image img {
+				display: block;
+				margin: 0 auto;
+				border-radius: 12px;
+				box-shadow: var(--box-shadow);
+			}
+			.prose {
+				width: 720px;
+				max-width: calc(100% - 2em);
+				margin: auto;
+				padding: 1em;
+				color: rgb(var(--gray-dark));
+			}
+			.specs-table {
+				width: 100%;
+				border-collapse: collapse;
+				margin: 2em 0;
+				border: 1px solid #ddd;
+				border-radius: 8px;
+				overflow: hidden;
+			}
+			.specs-table th, .specs-table td {
+				padding: 12px;
+				border-bottom: 1px solid #eee;
+				text-align: left;
+			}
+			.specs-table th {
+				background: #f9f9f9;
+				font-weight: bold;
+				width: 40%;
+			}
+			.rating-box {
+				background: #1a1a1a;
+				color: #00ff9d;
+				padding: 1em;
+				border-radius: 8px;
+				text-align: center;
+				font-size: 2em;
+				font-weight: bold;
+				margin-bottom: 1em;
+			}
+			.pros-cons {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 1em;
+				margin: 2em 0;
+			}
+			.pros, .cons {
+				padding: 1em;
+				border-radius: 8px;
+			}
+			.pros { background: #e6fffa; border: 1px solid #b2f5ea; }
+			.cons { background: #fff5f5; border: 1px solid #feb2b2; }
+			.pros h3 { color: #2c7a7b; margin-top: 0; }
+			.cons h3 { color: #c53030; margin-top: 0; }
+			ul { padding-left: 1.2em; }
+		</style>
+	</head>
+
+	<body>
+		<Header />
+		<main>
+			<div class="prose">
+				<div class="title">
+					<h1>{manufacturer} {name}</h1>
+					<p class="subtitle">Released: {releaseDate} | Price: {price}</p>
+					<hr />
+				</div>
+				{heroImage && <img width={1020} height={510} src={heroImage.src} alt={name} />}
+				
+				{rating && <div class="rating-box">Score: {rating}/10</div>}
+
+				<table class="specs-table">
+					<tbody>
+						<tr><th>Manufacturer</th><td>{manufacturer}</td></tr>
+						<tr><th>Chipset (SoC)</th><td>{chipset}</td></tr>
+						<tr><th>Screen</th><td>{screen}</td></tr>
+						<tr><th>Battery</th><td>{battery}</td></tr>
+						<tr><th>Operating System</th><td>{os}</td></tr>
+						<tr><th>Price Range</th><td>{price}</td></tr>
+					</tbody>
+				</table>
+
+				<div class="pros-cons">
+					<div class="pros">
+						<h3>✅ Pros</h3>
+						<ul>
+							{pros?.map((item) => <li>{item}</li>)}
+						</ul>
+					</div>
+					<div class="cons">
+						<h3>❌ Cons</h3>
+						<ul>
+							{cons?.map((item) => <li>{item}</li>)}
+						</ul>
+					</div>
+				</div>
+
+				<slot />
+			</div>
+		</main>
+		<Footer />
+	</body>
+</html>

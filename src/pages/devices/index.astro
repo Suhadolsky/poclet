@@ -1,0 +1,109 @@
+---
+import BaseHead from '../../components/BaseHead.astro';
+import Header from '../../components/Header.astro';
+import Footer from '../../components/Footer.astro';
+import { SITE_TITLE, SITE_DESCRIPTION } from '../../consts';
+import { getCollection } from 'astro:content';
+
+const devices = (await getCollection('devices')).sort(
+	(a, b) => b.data.rating! - a.data.rating!
+);
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Device Database - ${SITE_TITLE}`} description="Compare specs and reviews of the best handheld consoles." />
+		<style>
+			main {
+				width: 960px;
+			}
+			ul {
+				display: grid;
+				grid-template-columns: 1fr 1fr;
+				gap: 2rem;
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+			}
+			li {
+				background: white;
+				border-radius: 12px;
+				overflow: hidden;
+				box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+				transition: 0.2s ease;
+			}
+			li:hover {
+				transform: translateY(-4px);
+				box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+			}
+			li a {
+				display: block;
+				text-decoration: none;
+				color: inherit;
+			}
+			.image-wrapper {
+				width: 100%;
+				height: 200px;
+				overflow: hidden;
+			}
+			img {
+				width: 100%;
+				height: 100%;
+				object-fit: cover;
+			}
+			.content {
+				padding: 1.5rem;
+			}
+			h4 {
+				margin: 0;
+				font-size: 1.5rem;
+				color: rgb(var(--black));
+			}
+			.meta {
+				display: flex;
+				justify-content: space-between;
+				margin-top: 0.5rem;
+				color: rgb(var(--gray));
+				font-size: 0.9rem;
+			}
+			.rating {
+				background: #00ff9d;
+				color: #000;
+				padding: 2px 8px;
+				border-radius: 4px;
+				font-weight: bold;
+			}
+		</style>
+	</head>
+	<body>
+		<Header />
+		<main>
+			<section>
+				<h1>Device Database 📚</h1>
+				<p>Detailed specs, reviews, and ratings for every handheld worth buying.</p>
+				<ul>
+					{
+						devices.map((device) => (
+							<li>
+								<a href={`/devices/${device.id}/`}>
+									<div class="image-wrapper">
+										<img width={720} height={360} src={device.data.heroImage?.src} alt="" />
+									</div>
+									<div class="content">
+										<h4>{device.data.name}</h4>
+										<div class="meta">
+											<span>{device.data.manufacturer}</span>
+											<span class="rating">{device.data.rating}/10</span>
+										</div>
+									</div>
+								</a>
+							</li>
+						))
+					}
+				</ul>
+			</section>
+		</main>
+		<Footer />
+	</body>
+</html>

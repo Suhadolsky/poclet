@@ -1,0 +1,19 @@
+---
+import { getCollection, render } from 'astro:content';
+import DeviceLayout from '../../layouts/DeviceLayout.astro';
+
+export async function getStaticPaths() {
+	const devices = await getCollection('devices');
+	return devices.map((device) => ({
+		params: { slug: device.id },
+		props: device,
+	}));
+}
+
+const device = Astro.props;
+const { Content } = await render(device);
+---
+
+<DeviceLayout {...device.data}>
+	<Content />
+</DeviceLayout>

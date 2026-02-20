@@ -2,7 +2,7 @@
 title: 'Steam Deck OLED: The Upgrade We actually Wanted (Review 2024)'
 description: 'Is the Steam Deck OLED worth it? Full review covering the screen, battery life, and performance vs the LCD model. The ultimate portable console guide.'
 pubDate: 'Jul 08 2024'
-heroImage: '/blog-placeholder-3.jpg'
+heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 
 ## The King is Dead, Long Live the King 👑

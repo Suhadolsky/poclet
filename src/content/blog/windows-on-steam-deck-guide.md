@@ -2,7 +2,7 @@
 title: 'Should You Install Windows on Steam Deck OLED in 2026?'
 description: 'Dual-booting Windows 11 on the Deck. Is the driver situation fixed? Can you finally play Call of Duty?'
 pubDate: 'Feb 08 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Steam_Deck_with_carry_case.jpg/1200px-Steam_Deck_with_carry_case.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 Valve officially supports SteamOS. Windows support is... an afterthought.

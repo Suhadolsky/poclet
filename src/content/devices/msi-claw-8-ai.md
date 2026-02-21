@@ -15,7 +15,7 @@ pros:
 cons:
   - "Very high price tag"
   - "Intel GPU drivers still maturing"
-heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Asus_ROG_Ally.jpg/1280px-Asus_ROG_Ally.jpg"
+heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
 The redemption arc. After the failed launch of the original Claw, the 8 AI+ is being discussed as a serious competitor to the Ally X.

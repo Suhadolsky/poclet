@@ -17,7 +17,7 @@ cons:
   - "Sticks allow light to bleed through (annoying)"
   - "Buttons are a bit clicky/loud"
   - "Gets warm on PSP games"
-heroImage: "https://m.media-amazon.com../../assets/I/71Xy+i+6+L._AC_SL1500_.jpg"
+heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
 I picked up the **TrimUI Smart Pro** purely because it was on sale for $45, expecting a cheap plastic toy. I was wrong. This thing feels premium.

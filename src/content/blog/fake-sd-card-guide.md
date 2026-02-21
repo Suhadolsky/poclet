@@ -2,7 +2,7 @@
 title: 'Warning: Dont Buy Fake SD Cards! A 2026 Survival Guide'
 description: 'Did your saves disappear? Your roms corrupted? You might have a fake SD card. Here is how to test it.'
 pubDate: 'Feb 18 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/SD_Cards_2018.jpg/1200px-SD_Cards_2018.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 We see it every day on Reddit. *"My Miyoo Mini won't turn on!"* or *"My Pokemon save is gone!"*.

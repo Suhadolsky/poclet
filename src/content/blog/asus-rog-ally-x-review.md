@@ -2,7 +2,7 @@
 title: 'ASUS ROG Ally X Review (2026): The New Windows Handheld King?'
 description: 'ASUS fixed every flaw of the original ROG Ally. We review the Ally X in 2026: battery life, performance, and why it is the best Windows handheld.'
 pubDate: 'Feb 21 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Asus_ROG_Ally.jpg/1280px-Asus_ROG_Ally.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 When the first ROG Ally launched, it was a "Steam Deck killer" that couldn't survive more than 60 minutes away from a power outlet. In 2026, looking back at the **ROG Ally X**, it’s clear that ASUS didn't just iterate; they performed a full heart transplant.

@@ -2,7 +2,7 @@
 title: 'Guide: How to Add Games (ROMs) and BIOS to Miyoo Mini Plus'
 description: 'Step-by-step guide to organizing your SD card for OnionOS. Where to put GBA, PS1, and BIOS files.'
 pubDate: 'Feb 25 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/SD_card_icon.svg/1200px-SD_card_icon.svg.png'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 So you bought a Miyoo Mini, installed OnionOS, and now you have a blank screen.

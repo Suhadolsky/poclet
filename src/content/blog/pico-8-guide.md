@@ -2,7 +2,7 @@
 title: 'Pico-8 on Miyoo Mini: The Ultimate Guide'
 description: 'How to play Celeste Classic and thousands of indie gems on your Miyoo Mini. Native Splore support via Wi-Fi explained.'
 pubDate: 'Feb 12 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/Pico-8_logo.svg/1200px-Pico-8_logo.svg.png'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 **Pico-8** is a "fantasy console" that never existed. It has strict limits (128x128 resolution, 16 colors), which breeds incredible creativity.

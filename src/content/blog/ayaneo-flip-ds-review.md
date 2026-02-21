@@ -2,7 +2,7 @@
 title: 'Ayaneo Flip DS Review: The 3DS on Steroids'
 description: 'Windows handheld with dual screens? It sounds crazy, but for DS and 3DS emulation, it is absolute perfection. Here is why.'
 pubDate: 'Jan 15 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6d/Nintendo_3DS_Aqua_Open.jpg/1200px-Nintendo_3DS_Aqua_Open.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 **By PocketCore | Hardware Review**

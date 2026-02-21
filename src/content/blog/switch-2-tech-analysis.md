@@ -2,7 +2,7 @@
 title: 'Switch 2 Tech Analysis: Is DLSS the Magic Bullet?'
 description: 'Digital Foundry style breakdown of the Nvidia T239 chip. Can a handheld really run GTA VI? We analyze the teraflops, memory bandwidth, and ray tracing capabilities.'
 pubDate: 'Feb 15 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c8/Nvidia_Logo_2020.svg/1200px-Nvidia_Logo_2020.svg.png'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 We've spent two weeks with the **Nintendo Switch 2**, and one thing is clear: Nvidia has pulled off a miracle.

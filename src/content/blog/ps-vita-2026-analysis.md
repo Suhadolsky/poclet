@@ -2,7 +2,7 @@
 title: 'Is the PS Vita Still Worth It in 2026?'
 description: 'Sony''s abandoned child refuses to die. With the Homebrew community still active, does the OLED Vita hold up against modern retro handhelds?'
 pubDate: 'Jan 10 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/PlayStation_Vita_1101_Front.jpg/1200px-PlayStation_Vita_1101_Front.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 In 2026, you can buy an Anbernic RG556 with an OLED screen for $170. So why are people still buying used **PS Vitas** for $150?

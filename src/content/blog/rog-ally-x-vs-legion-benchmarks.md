@@ -2,7 +2,7 @@
 title: 'ROG Ally X vs. Legion Go 2 vs. Xbox Handheld: The 2026 Showdown'
 description: 'Which Windows handheld should you buy in 2026? Benchmarks, battery life comparison, and why the rumored Xbox Handheld changes everything.'
 pubDate: 'Feb 21 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Asus_ROG_Ally.jpg/1280px-Asus_ROG_Ally.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 **By PocketCore Technical Team | February 2026 Analysis**

@@ -2,7 +2,7 @@
 title: 'Lenovo Legion Go 2 Review: The Giant of the Handheld World'
 description: 'Is bigger always better? We review the Lenovo Legion Go 2 in 2026: 8.8-inch Micro-OLED, detachable controllers, and raw power.'
 pubDate: 'Feb 21 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Asus_ROG_Ally.jpg/1280px-Asus_ROG_Ally.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 Most handhelds are trying to be as portable as possible. Lenovo decided to go the other way. The **Legion Go 2** is a statement: "I am a gaming PC that happens to have controllers attached."

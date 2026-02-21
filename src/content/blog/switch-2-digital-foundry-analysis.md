@@ -2,7 +2,7 @@
 title: 'Tech Analysis: Inside the Nintendo Switch 2 (Tegra T239 Breakdown)'
 description: 'Digital Foundry style deep dive. We analyze the Nvidia T239 Ampere chip, DLSS reconstruction, and why 12GB RAM is the secret weapon for GTA VI.'
 pubDate: 'Feb 12 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/NVIDIA_Tegra_X1_SoC.jpg/1280px-NVIDIA_Tegra_X1_SoC.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 **By PocketCore Tech Team | Source: Digital Foundry Analysis**

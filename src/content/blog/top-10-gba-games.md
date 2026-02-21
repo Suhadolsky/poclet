@@ -2,7 +2,7 @@
 title: 'The 10 Best GBA Games to Play on Miyoo Mini'
 description: 'Game Boy Advance games look stunning on 3.5-inch screens. From Metroid to Golden Sun, here are the essentials.'
 pubDate: 'Feb 05 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/en/thumb/f/f7/Metroid_Fusion_box.jpg/220px-Metroid_Fusion_box.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 The **Miyoo Mini Plus** and **RG35XX** were born to play Game Boy Advance. The aspect ratio is close enough, and the pixel density makes pixel art look crisp.

@@ -2,7 +2,7 @@
 title: 'Steam Deck OLED in 2026: Still the King of Comfort'
 description: 'Two years later, Valve''s handheld remains the gold standard. It’s not the fastest anymore, but it’s the only one that feels like a console.'
 pubDate: 'Feb 18 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steam_Deck_OLED.jpg/1280px-Steam_Deck_OLED.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 **By PocketCore Editorial | Review**

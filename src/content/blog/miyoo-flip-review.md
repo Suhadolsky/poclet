@@ -2,7 +2,7 @@
 title: 'Miyoo Flip Review: The Nostalgia Machine We Wanted'
 description: 'It took two years, but the Miyoo Flip is finally here. With dual sticks, OnionOS support, and a satisfying snap, is it the ultimate pocket console?'
 pubDate: 'Feb 10 2026'
-heroImage: 'https://m.media-amazon.com../../assets/I/61y4y+yL+L._AC_SL1500_.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 There is a specific sound. *Snap.*

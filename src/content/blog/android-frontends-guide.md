@@ -2,7 +2,7 @@
 title: 'The Best Frontends for Android Handhelds (2026 Guide)'
 description: 'Make your Retroid or Odin feel like a console. Daijishō vs ES-DE vs Beacon. Which one should you choose?'
 pubDate: 'Jan 25 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Android_robot.svg/1024px-Android_robot.svg.png'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 Android is great, but navigating touch menus with a controller sucks. You need a **Frontend**.

@@ -2,7 +2,7 @@
 title: 'Steam Deck OLED vs. Lenovo Legion Go 2: Which Heavyweight Wins?'
 description: 'Valve''s refined champion faces off against Lenovo''s second-gen powerhouse. VRR screens, battery life, and software compared.'
 pubDate: 'Jan 20 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steam_Deck_OLED.jpg/1280px-Steam_Deck_OLED.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 The handheld PC war is over... or is it?

@@ -2,7 +2,7 @@
 title: 'What Are Hall Effect Joysticks? And Why You Need Them.'
 description: 'Stick drift is the enemy. Learn how magnets solve the problem forever. A technical breakdown of Hall Effect sensors.'
 pubDate: 'Jan 22 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/Joy-Con_Drift.jpg/1200px-Joy-Con_Drift.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 We've all been there. Your character starts walking to the left on their own. **Stick Drift.**

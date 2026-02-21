@@ -2,7 +2,7 @@
 title: 'OLED Burn-In on Handhelds: Is It a Real Threat?'
 description: 'We tested the Steam Deck OLED and Switch OLED for 2000 hours. Here are the results.'
 pubDate: 'Jan 18 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steam_Deck_OLED.jpg/1200px-Steam_Deck_OLED.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 OLED screens are beautiful, but organic pixels degrade over time. If you leave a static HUD (like a health bar) on screen for hours, it can leave a ghost image.

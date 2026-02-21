@@ -17,7 +17,7 @@ cons:
   - "LCD screen at launch (OLED later)"
   - "Still bulky compared to Lite"
   - "Battery life in heavy games (2.5h)"
-heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/88/Nintendo_Switch_2_Concept_Render.jpg/1200px-Nintendo_Switch_2_Concept_Render.jpg"
+heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
 The **Switch 2** is not a revolution; it's a massive evolution. Nintendo kept the hybrid concept but gave it enough power to run PS5 ports.

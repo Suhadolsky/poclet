@@ -2,7 +2,7 @@
 title: 'MSI Claw 8 AI+ Review: The Intel Handheld Redemption'
 description: 'Did Intel and MSI finally fix the Claw? We review the MSI Claw 8 AI+ (2026): Lunar Lake performance, battery life, and VRR.'
 pubDate: 'Feb 21 2026'
-heroImage: 'https://upload.wikimedia.org/wikipedia/commons/thumb/4/45/Asus_ROG_Ally.jpg/1280px-Asus_ROG_Ally.jpg'
+heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 
 The first MSI Claw was... well, let's just say it was a "learning experience." But in 2026, the **MSI Claw 8 AI+** has arrived, and it’s a completely different animal. By switching to the **Intel Core Ultra 7 (Lunar Lake)**, MSI has finally given the AMD-dominated market some real competition.

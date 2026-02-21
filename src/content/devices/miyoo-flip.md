@@ -17,7 +17,7 @@ cons:
   - "Hinge feels slightly scary"
   - "Stock OS is garbage"
   - "Gets warm on the bottom"
-heroImage: "https://m.media-amazon.com../../assets/I/61y4y+yL+L._AC_SL1500_.jpg"
+heroImage: "../../assets/blog-placeholder-1.jpg"
 ---
 
 After 2 years of delays, the **Miyoo Flip** is here. Is it the RG35XX SP killer? Yes.

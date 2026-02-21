@@ -16,7 +16,7 @@ cons:
   - "Input lag on some screens (fixed in updates)"
   - "Heavy (compared to Retroid)"
   - "Android setup is tedious"
-heroImage: "https://m.media-amazon.com/images/I/61a3W8+y3+L._AC_SL1500_.jpg"
+heroImage: "https://raw.githubusercontent.com/TapiocaFox/Daijishou/main/images/screenshots/Odin2.jpg"
 ---
 
 I sold my Steam Deck to buy an **Odin 2**, and I don't regret it. Why? Battery life.

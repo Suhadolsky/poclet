@@ -2,7 +2,7 @@
 title: 'Optimizing the ROG Ally X: How to Install "Xbox OS" and Fix Battery Drain'
 description: 'Turn your Windows handheld into a true console. We guide you through debloating Windows 11, installing Playnite, and getting 5+ hours of battery.'
 pubDate: 'Jan 28 2026'
-heroImage: 'https://m.media-amazon.com/images/I/71Xy+i+6+L._AC_SL1500_.jpg'
+heroImage: 'https://m.media-amazon.com../../assets/I/71Xy+i+6+L._AC_SL1500_.jpg'
 ---
 
 The **ROG Ally X** is a beast hardware-wise, but Windows 11 holds it back. Let's fix that.

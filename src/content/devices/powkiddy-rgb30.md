@@ -16,7 +16,7 @@ cons:
   - "Battery charging is a nightmare"
   - "D-Pad edges are sharp"
   - "Build quality feels hollow"
-heroImage: "https://m.media-amazon.com/images/I/61Iq6-K7ZtL._AC_SL1500_.jpg"
+heroImage: "https://m.media-amazon.com../../assets/I/61Iq6-K7ZtL._AC_SL1500_.jpg"
 ---
 
 The **Powkiddy RGB30** is a weird device. Who makes a square screen in 2026? But once you load up a Game Boy game, you understand.

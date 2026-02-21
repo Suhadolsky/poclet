@@ -17,7 +17,7 @@ cons:
   - "Screen ghosting (fixed in later batches)"
   - "Trigger springs can break (early units)"
   - "Android setup takes time"
-heroImage: "/images/retroid-pocket.jpg"
+heroImage: ../../assets/retroid-pocket.jpg"
 ---
 
 The king of price-to-performance. It plays almost the entire PS2 library perfectly for under $200.

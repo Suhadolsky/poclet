@@ -17,7 +17,7 @@ cons:
   - "Expensive ($799)"
   - "Windows 11 can be clunky on touchscreen"
   - "No OLED (but IPS is very bright)"
-heroImage: "/images/rog-ally.jpg"
+heroImage: ../../assets/rog-ally.jpg"
 ---
 
 The **ROG Ally X** is not just a refresh; it's what the original Ally should have been. It fixes the battery life and SD card issues.

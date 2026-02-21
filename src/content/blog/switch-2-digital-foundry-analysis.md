@@ -18,7 +18,7 @@ This is a custom variant of the Orin architecture, built on the **8nm Samsung no
 *   **Memory:** 12GB LPDDR5X running at 102 GB/s bandwidth.
 *   **CPU:** 8-Core ARM Cortex A78C.
 
-![Nvidia Chip Architecture](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_Tegra_2_die_shot.jpg/800px-NVIDIA_Tegra_2_die_shot.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/NVIDIA_Tegra_2_die_shot.jpg/800px-NVIDIA_Tegra_2_die_shot.jpg" alt="Nvidia Chip Architecture" />
 *(Note: Evolution of Tegra architecture leading to T239)*
 
 ### Why 12GB of RAM matters? 🧠
@@ -42,7 +42,7 @@ In our stress test with the *Matrix Awakens* tech demo, DLSS reconstructed a 720
 We were skeptical. But looking at *Metroid Prime 4*, we see genuine **RT Reflections**.
 The T239 includes RT cores. It won't do full path tracing like a PC, but for specific elements (puddles, glass, shadows), it brings a depth that the Steam Deck simply cannot match efficiently.
 
-![Ray Tracing Diagram](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ray_trace_diagram.svg/1024px-Ray_trace_diagram.svg.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Ray_trace_diagram.svg/1024px-Ray_trace_diagram.svg.png" alt="Ray Tracing Diagram" />
 
 ## Verdict: Smarter, Not Just Stronger 🏆
 

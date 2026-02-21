@@ -17,7 +17,7 @@ Because specifications lie. Experience is truth.
 We can talk about nits and refresh rates all day. But seeing *Hades II* on this OLED panel is a spiritual experience.
 The 90Hz refresh rate makes 2D indie games feel liquid smooth. The HDR implementation pops in a way that Windows handhelds still struggle to automate.
 
-![Steam Deck Screen](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Steam_Deck_with_carry_case.jpg/1280px-Steam_Deck_with_carry_case.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Steam_Deck_with_carry_case.jpg/1280px-Steam_Deck_with_carry_case.jpg" alt="Steam Deck Screen" />
 
 ## SteamOS: The "Console" Factor 🎮
 

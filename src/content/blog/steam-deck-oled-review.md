@@ -11,7 +11,7 @@ When Valve released the **Steam Deck OLED**, it was a masterclass in refinement.
 
 Enter the **Steam Deck OLED**. Even two years later, it’s not just about the hardware; it’s about the ecosystem.
 
-![Steam Deck OLED showing high contrast gaming](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steam_Deck_OLED.jpg/640px-Steam_Deck_OLED.jpg)
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steam_Deck_OLED.jpg/640px-Steam_Deck_OLED.jpg" alt="Steam Deck OLED showing high contrast gaming" />
 
 ## 1. OLED vs Switch 2 LCD: The Contrast Battle 🤩
 

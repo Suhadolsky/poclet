@@ -17,7 +17,7 @@ cons:
   - "Fragile screen (drops = death)"
   - "No GPU (PS1 is the limit)"
   - "Stock SD card is e-waste"
-heroImage: "/images/miyoo-mini.jpg"
+heroImage: ../../assets/miyoo-mini.jpg"
 ---
 
 The **Miyoo Mini Plus** is the definitive entry-level handheld. It fixes the ergonomics of the original Mini while keeping the charm.
@@ -50,4 +50,4 @@ The **Miyoo Mini Plus** is the definitive entry-level handheld. It fixes the erg
 
 ## 📸 Gallery
 *(Photo credit: r/MiyooMini community)*
-![Miyoo Mini Plus In Hand](https://i.redd.it/e2q0q0q0q0q0.jpg)
+<img src="https://i.redd.it/e2q0q0q0q0q0.jpg" alt="Miyoo Mini Plus In Hand" />

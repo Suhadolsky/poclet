@@ -89,7 +89,7 @@ const devices = (await getCollection('devices')).sort(
 							<li>
 								<a href={`/devices/${device.id}/`}>
 									<div class="image-wrapper">
-										{device.data.heroImage && <Image width={720} height={360} src={device.data.heroImage} alt="" />}
+										<img width={720} height={360} src={device.data.heroImage} alt="" />
 									</div>
 									<div class="content">
 										<h4>{device.data.name}</h4>

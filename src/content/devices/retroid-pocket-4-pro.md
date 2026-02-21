@@ -17,7 +17,7 @@ cons:
   - "Screen ghosting (fixed in later batches)"
   - "Trigger springs can break (early units)"
   - "Android setup takes time"
-heroImage: "https://m.media-amazon.com/images/I/61gJ+yq+u+L._AC_SL1500_.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Retroid_Pocket_3_Plus.jpg/1280px-Retroid_Pocket_3_Plus.jpg"
 ---
 
 The king of price-to-performance. It plays almost the entire PS2 library perfectly for under $200.

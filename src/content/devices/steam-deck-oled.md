@@ -17,7 +17,7 @@ cons:
   - "Too big for some pockets"
   - "Anti-Cheat blocks some games (Fortnite, CoD)"
   - "Still 800p resolution"
-heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steam_Deck_OLED.jpg/1280px-Steam_Deck_OLED.jpg"
+heroImage: "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c1/Steam_Deck_OLED.jpg/2560px-Steam_Deck_OLED.jpg"
 ---
 
 The gold standard. If you want to play your Steam library on the go, this is it.

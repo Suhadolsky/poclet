@@ -17,7 +17,7 @@ cons:
   - "Screen ghosting (fixed in later batches)"
   - "Trigger springs can break (early units)"
   - "Android setup takes time"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+heroImage: "https://m.media-amazon.com/images/I/61gJ+yq+u+L._AC_SL1500_.jpg"
 ---
 
 The king of price-to-performance. It plays almost the entire PS2 library perfectly for under $200.

@@ -17,7 +17,7 @@ cons:
   - "Fragile screen (drops = death)"
   - "No GPU (PS1 is the limit)"
   - "Stock SD card is e-waste"
-heroImage: "https://preview.redd.it/my-miyoo-mini-plus-v0-8q5q5q5q5q5.jpg?width=640&crop=smart&auto=webp&s=example"
+heroImage: "https://m.media-amazon.com/images/I/61Iq6-K7ZtL._AC_SL1500_.jpg"
 ---
 
 The **Miyoo Mini Plus** is the definitive entry-level handheld. It fixes the ergonomics of the original Mini while keeping the charm.

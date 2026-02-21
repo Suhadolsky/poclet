@@ -17,7 +17,7 @@ cons:
   - "Buttons are clicky/loud"
   - "Gets warm near the hinge"
   - "Sleep mode drains battery on stock OS"
-heroImage: "../../assets/blog-placeholder-1.jpg"
+heroImage: "https://m.media-amazon.com/images/I/61+yQ7jY+DL._AC_SL1500_.jpg"
 ---
 
 The **RG35XX SP** is the Game Boy Advance SP reborn. It snaps shut, protects its screen, and fits in any pocket.

@@ -4,36 +4,41 @@ manufacturer: "Valve"
 releaseDate: "2023-11-16"
 price: "$549 - $649"
 chipset: "AMD APU (6nm)"
-screen: "7.4\" HDR OLED (1280x800, 90Hz)"
-battery: "50Wh (3-12h)"
-os: "SteamOS (Arch Linux)"
+screen: "7.4\" HDR OLED (90Hz)"
+battery: "50Wh"
+os: "SteamOS"
 rating: 9.9
 pros:
-  - "Stunning HDR OLED screen"
-  - "Incredible battery life (vs LCD)"
-  - "Runs AAA games (Cyberpunk, Elden Ring)"
-  - "Trackpads for Strategy/Shooters"
+  - "Best HDR screen in handhelds"
+  - "SteamOS is a console-like experience"
+  - "Trackpads enable mouse-heavy games"
+  - "Huge battery life upgrade over LCD"
 cons:
-  - "Still bulky (Heavy)"
-  - "Limited Anti-Cheat support (Fortnite/CoD)"
-  - "Fan noise can be audible (though better than LCD)"
+  - "Too big for some pockets"
+  - "Anti-Cheat blocks some games (Fortnite, CoD)"
+  - "Still 800p resolution"
 heroImage: "../../assets/blog-placeholder-3.jpg"
 ---
 
-The **Steam Deck OLED** is the definitive version of Valve's handheld PC. It's not just a screen upgrade; it's a complete overhaul of the internals, making it cooler, quieter, and longer-lasting.
+The gold standard. If you want to play your Steam library on the go, this is it.
 
-## Overview
+## 💿 Software & Tools
 
-Valve didn't just slap an OLED panel on the old Deck. They shrunk the APU to 6nm (more efficient), increased the battery size by ~25%, and upgraded the WiFi to 6E.
+| Tool | Purpose | Link |
+| :--- | :--- | :--- |
+| **EmuDeck** | 🏆 **Essential** | Installs all emulators (RetroArch, Dolphin, PCSX2) and configures them automatically. | [EmuDeck](https://www.emudeck.com/) |
+| **Decky Loader** | Plugins | Change themes, boost colors, change boot videos. | [Decky](https://decky.xyz/) |
+| **CryoUtilities** | Performance | Tweaks SWAP and VRAM for better FPS in AAA games. | [GitHub](https://github.com/CryoByte33/steam-deck-utilities) |
 
-### The Screen 🤩
+## 🛠️ Troubleshooting (Fixes)
 
-The 1000 nits peak brightness for HDR content is breathtaking. Games like *Ori and the Will of the Wisps* or *Cyberpunk 2077* look better here than on most gaming monitors. Plus, the 90Hz refresh rate makes indie games feel silky smooth.
+### 1. "Verifying Installation" Loop
+*   **Fix:** Reboot. If stuck, hold Power + Volume Up -> Boot from File -> SteamOS.
 
-### Performance 🚀
+### 2. Wi-Fi Disconnecting on 5GHz
+*   **Cause:** Power saving bug in OLED driver.
+*   **Fix:** Enable "Developer Mode" -> Turn OFF "Enable Wifi Power Management".
 
-While raw FPS is only 3-5% better than the LCD model due to faster RAM (6400MT/s), the real gain is stability. Frametimes are more consistent, and the device runs significantly cooler.
-
-## Verdict
-
-The **Steam Deck OLED** is currently the best handheld gaming PC on the market. It balances power, battery life, and user experience perfectly.
+### 3. Black Screen but Haptics Work
+*   **Cause:** "Black Screen of Death" (software glitch).
+*   **Fix:** Force restart (Hold Power for 12 seconds). Or try the "PD Reset" (Hold Volume Minus + "..." button + Power while plugging in charger).

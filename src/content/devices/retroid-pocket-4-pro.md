@@ -5,42 +5,41 @@ releaseDate: "2024-01-20"
 price: "$199"
 chipset: "Dimensity 1100"
 screen: "4.7\" IPS (1334x750)"
-battery: "5000 mAh (4-8h)"
+battery: "5000 mAh"
 os: "Android 13"
 rating: 8.8
 pros:
-  - "Powerful: Runs PS2/GC/Wii perfectly"
-  - "Hall Effect joysticks (no drift)"
-  - "Great battery life"
-  - "Excellent build quality"
+  - "PS2/GameCube at 2x-3x resolution"
+  - "Hall Effect Joysticks (No drift)"
+  - "Active Cooling (Fan)"
+  - "Premium build quality"
 cons:
-  - "Android Setup is tedious"
-  - "Small screen for some text-heavy games"
-  - "Gets warm during intense gaming"
-heroImage: "../../assets/blog-placeholder-1.jpg"
+  - "Screen ghosting (fixed in later batches)"
+  - "Trigger springs can break (early units)"
+  - "Android setup takes time"
+heroImage: "../../assets/blog-placeholder-2.jpg"
 ---
 
-The **Retroid Pocket 4 Pro** is the current king of the "mid-range" handheld market. For under $200, it offers performance that rivals devices twice its price.
+The king of price-to-performance. It plays almost the entire PS2 library perfectly for under $200.
 
-## Overview
+## 💿 Software Guide (Android)
 
-Retroid finally nailed it. The Dimensity 1100 chipset is a beast for emulation. Unlike previous generations, this handheld doesn't struggle with PS2 or GameCube. It just plays them.
+Since it runs Android, you don't flash firmware like Linux devices. You install **Frontends**.
 
-### What Can It Emulate? 🎮
+| App | Type | Purpose | Link |
+| :--- | :--- | :--- | :--- |
+| **Daijishō** | Frontend | Turns your apps into a console interface. Beautiful. | [Play Store](https://play.google.com/store/apps/details?id=com.magneticchen.daijishou) |
+| **EmulationStation** | Frontend | Classic retro feel (ES-DE). Paid but worth it. | [ES-DE](https://www.es-de.org/) |
+| **Odin Tools** | Utility | Quick settings for fan control and screen saturation. | [GitHub](https://github.com/Th0m0/OdinTools) |
 
-*   **PS2:** 100% full speed (mostly 2x-3x resolution).
-*   **GameCube:** 100% full speed.
-*   **Wii:** Playable (some motion control issues).
-*   **3DS:** Solid (Citra runs well).
-*   **Switch:** Some lighter 2D games run okay (Yuzu/Skyline), but don't expect *Zelda: TOTK*.
+## 🛠️ Troubleshooting (Fixes)
 
-### Android 13 📱
+### 1. R2/L2 Trigger Broke (Floppy Trigger)
+*   **Cause:** Bad springs in the first batch (Jan-Feb 2024).
+*   **Fix:** Contact `sales@goretroid.com`. They send a free backplate replacement. Or use PS4 controller springs.
 
-Since it runs Android, you get access to:
-*   **Daijishō frontend:** Beautiful game library.
-*   **Cloud Gaming:** Xbox Game Pass, GeForce Now.
-*   **Native Android Games:** Genshin Impact (runs well on Medium/High).
+### 2. Screen Ghosting / Green Tint
+*   **Fix:** Go to Settings -> Handheld Settings -> Screen. Adjust the color temperature. For ghosting, there is a software patch in the latest OTA update. **Update your device immediately.**
 
-## Verdict
-
-If you want to play PS2/GC on the go and don't want a bulky Steam Deck, buy the **Retroid Pocket 4 Pro**.
+### 3. Fan Noise
+*   **Fix:** Use "Smart" or "Quiet" profile in the Retroid pull-down menu. "Sport" mode is only needed for heavy Switch emulation.

@@ -6,37 +6,48 @@ price: "$60 - $80"
 chipset: "Cortex-A7 (1.2GHz)"
 screen: "3.5\" IPS (640x480)"
 battery: "3000 mAh (5-6h)"
-os: "Linux (OnionOS Recommended)"
+os: "Linux (Stock)"
 rating: 9.5
 pros:
-  - "Perfect size for pocket"
-  - "Incredible community support (OnionOS)"
-  - "Great screen quality"
+  - "Perfect pocket size"
+  - "Amazing community support (OnionOS)"
+  - "Great 4:3 screen"
   - "WiFi for RetroAchievements"
 cons:
-  - "No GPU (can't play N64/Dreamcast well)"
-  - "Shoulder buttons can be awkward"
-  - "Stock SD card is garbage"
-heroImage: "../../assets/blog-placeholder-2.jpg"
+  - "Fragile screen (drops = death)"
+  - "No GPU (PS1 is the limit)"
+  - "Stock SD card is e-waste"
+heroImage: "https://preview.redd.it/my-miyoo-mini-plus-v0-8q5q5q5q5q5.jpg?width=640&crop=smart&auto=webp&s=example"
 ---
 
-The **Miyoo Mini Plus** is arguably the best entry-level retro handheld ever made. It fixes the biggest issue of the original Mini (too small for adult hands) while keeping everything that made it great.
+The **Miyoo Mini Plus** is the definitive entry-level handheld. It fixes the ergonomics of the original Mini while keeping the charm.
 
-## Overview
+## 💿 Firmware Guide
 
-It's a vertical Game Boy-style handheld designed for 8-bit and 16-bit systems. If your goal is to play **Game Boy Advance, SNES, Genesis, or PS1**, this is the device to get.
+| OS Name | Status | Why use it? | Link |
+| :--- | :--- | :--- | :--- |
+| **OnionOS** | 🏆 **Best** | Game Switcher, Themes, Performance. Essential. | [GitHub](https://github.com/OnionUI/Onion) |
+| **MinUI** | Minimalist | Simple text menus, fast boot, no distractions. | [GitHub](https://github.com/shauninman/MinUI) |
+| **Stock OS** | Avoid | Clunky, ugly, prone to corruption. | N/A |
 
-### Performance 🎮
+> **Pro Tip:** Do not use the SD card included in the box. Buy a Samsung Evo or SanDisk Ultra immediately.
 
-Don't expect it to run N64 or PSP. The single-core processor is optimized for 2D gaming. However, for PS1 and below, it runs flawlessly.
+## 🛠️ Troubleshooting (Fixes)
 
-### The Secret Weapon: OnionOS 🧅
+### 1. Black Screen / Won't Turn On
+*   **Cause:** Usually a bad SD card or loose ribbon cable.
+*   **Fix:**
+    1. Try a different SD card with fresh OnionOS.
+    2. Open the back (4 screws), unplug battery, carefully reseat the wide orange screen ribbon cable.
 
-The stock firmware is usable, but **OnionOS** is mandatory. It adds:
-*   **Game Switcher:** Instant save/load.
-*   **Themes:** Endless customization.
-*   **Scraper:** Auto-download box art.
+### 2. Screen Falling Out
+*   **Cause:** Weak adhesive in early batches.
+*   **Fix:** Use a tiny amount of B-7000 glue or thin double-sided phone repair tape around the bezel.
 
-## Verdict
+### 3. Wi-Fi Not Connecting
+*   **Cause:** 5GHz networks are not supported.
+*   **Fix:** Connect only to **2.4GHz** Wi-Fi networks.
 
-If you have $60 and love retro games, buy this. It's the perfect travel companion.
+## 📸 Gallery
+*(Photo credit: r/MiyooMini community)*
+![Miyoo Mini Plus In Hand](https://i.redd.it/e2q0q0q0q0q0.jpg)

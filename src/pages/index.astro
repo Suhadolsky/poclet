@@ -10,6 +10,9 @@ import { Image } from 'astro:assets';
 const posts = (await getCollection('blog')).sort(
 	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf()
 );
+
+const mainPosts = posts.slice(0, 10);
+const sidebarPosts = posts.slice(10, 20);
 ---
 
 <!doctype html>
@@ -17,105 +20,245 @@ const posts = (await getCollection('blog')).sort(
 	<head>
 		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
 		<style>
-			main {
-				width: 960px;
-			}
-			ul {
-				display: flex;
-				flex-wrap: wrap;
+			.content-grid {
+				display: grid;
+				grid-template-columns: 300px 1fr;
 				gap: 2rem;
-				list-style-type: none;
-				margin: 0;
-				padding: 0;
+				max-width: 1200px;
+				margin: 0 auto;
+				padding: 0 1rem;
 			}
-			ul li {
-				width: calc(50% - 1rem);
+
+			/* Sidebar (Left) */
+			.sidebar {
+				display: flex;
+				flex-direction: column;
+				gap: 2rem;
 			}
-			ul li * {
-				text-decoration: none;
+
+			.sidebar-section h3 {
+				font-size: 1.2rem;
+				border-bottom: 2px solid var(--accent);
+				padding-bottom: 0.5rem;
+				margin-bottom: 1rem;
+				text-transform: uppercase;
+				letter-spacing: 1px;
+			}
+
+			.small-post-list {
+				display: flex;
+				flex-direction: column;
+				gap: 1rem;
+			}
+
+			.small-post-card {
+				display: grid;
+				grid-template-columns: 80px 1fr;
+				gap: 1rem;
+				background: rgba(255, 255, 255, 0.03);
+				padding: 0.5rem;
+				border-radius: 8px;
 				transition: 0.2s ease;
 			}
-			ul li:first-child {
+
+			.small-post-card:hover {
+				background: rgba(255, 255, 255, 0.08);
+			}
+
+			.small-post-card img {
+				width: 80px;
+				height: 60px;
+				object-fit: cover;
+				border-radius: 4px;
+			}
+
+			.small-post-card h4 {
+				font-size: 0.9rem;
+				margin: 0;
+				line-height: 1.2;
+			}
+
+			.ad-placeholder {
+				background: #1e2129;
+				border: 1px dashed var(--gray);
+				height: 250px;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+				color: var(--gray);
+				font-size: 0.8rem;
+				border-radius: 8px;
+			}
+
+			/* Main Content (Right) */
+			.main-feed {
+				display: flex;
+				flex-direction: column;
+				gap: 3rem;
+			}
+
+			.article-card {
+				display: flex;
+				flex-direction: column;
+				gap: 1.5rem;
+				background: var(--gray-light);
+				border-radius: 16px;
+				overflow: hidden;
+				border: 1px solid rgba(255, 255, 255, 0.05);
+				transition: transform 0.2s ease;
+			}
+
+			.article-card:hover {
+				transform: translateY(-4px);
+			}
+
+			.article-image-link {
 				width: 100%;
-				margin-bottom: 1rem;
-				text-align: center;
+				aspect-ratio: 16 / 9;
+				overflow: hidden;
 			}
-			ul li:first-child img {
+
+			.article-card img {
 				width: 100%;
+				height: 100%;
+				object-fit: cover;
 			}
-			ul li:first-child .title {
-				font-size: 2.369rem;
+
+			.article-body {
+				padding: 0 2rem 2rem 2rem;
 			}
-			ul li img {
+
+			.article-meta {
+				color: var(--gray);
+				font-size: 0.9rem;
 				margin-bottom: 0.5rem;
-				border-radius: 12px;
 			}
-			ul li a {
-				display: block;
+
+			.article-card h2 {
+				margin: 0.5rem 0 1rem 0;
+				font-size: 2rem;
 			}
-			.title {
-				margin: 0;
-				color: rgb(var(--black));
-				line-height: 1;
+
+			.article-description {
+				color: var(--gray-dark);
+				margin-bottom: 1.5rem;
+				font-size: 1.1rem;
+				display: -webkit-box;
+				-webkit-line-clamp: 3;
+				-webkit-box-orient: vertical;
+				overflow: hidden;
 			}
-			.date {
-				margin: 0;
-				color: rgb(var(--gray));
+
+			.read-more-btn {
+				display: inline-block;
+				background: var(--accent);
+				color: #000 !important;
+				padding: 0.6rem 1.5rem;
+				border-radius: 8px;
+				font-weight: 800;
+				text-transform: uppercase;
+				font-size: 0.9rem;
+				transition: 0.2s ease;
 			}
-			ul li a:hover h4,
-			ul li a:hover .date {
-				color: rgb(var(--accent));
+
+			.read-more-btn:hover {
+				background: #fff;
+				text-decoration: none;
+				box-shadow: 0 0 20px rgba(0, 255, 157, 0.4);
 			}
-			ul a:hover img {
-				box-shadow: var(--box-shadow);
-			}
-			@media (max-width: 720px) {
-				ul {
-					gap: 0.5em;
+
+			@media (max-width: 900px) {
+				.content-grid {
+					grid-template-columns: 1fr;
 				}
-				ul li {
-					width: 100%;
-					text-align: center;
+				.sidebar {
+					order: 2;
 				}
-				ul li:first-child {
-					margin-bottom: 0;
-				}
-				ul li:first-child .title {
-					font-size: 1.563em;
+				.article-card h2 {
+					font-size: 1.5rem;
 				}
 			}
-			.hero-text {
+
+			.hero-banner {
 				text-align: center;
-				padding: 2em 0;
+				padding: 4rem 1rem;
+				background: radial-gradient(circle at center, #1a3a3a 0%, rgb(var(--black)) 70%);
+				margin-bottom: 2rem;
 			}
+			
+			.hero-banner h1 {
+				font-size: 4rem;
+				margin-bottom: 1rem;
+				text-shadow: 0 0 30px var(--accent);
+			}
+
 		</style>
 	</head>
 	<body>
 		<Header />
-		<main>
-			<div class="hero-text">
-				<h1>🎮 Welcome to {SITE_TITLE}</h1>
-				<p>{SITE_DESCRIPTION}</p>
+		
+		<section class="hero-banner">
+			<h1>🎮 PocketCore</h1>
+			<p>{SITE_DESCRIPTION}</p>
+		</section>
+
+		<main class="content-grid">
+			<!-- SIDEBAR LEFT -->
+			<aside class="sidebar">
+				<div class="sidebar-section">
+					<div class="ad-placeholder">
+						[ AD SPACE - 300x250 ]
+					</div>
+				</div>
+
+				<div class="sidebar-section">
+					<h3>Recent Quick Picks</h3>
+					<div class="small-post-list">
+						{sidebarPosts.map((post) => (
+							<a href={`/blog/${post.slug}/`} class="small-post-card">
+								{post.data.heroImage && (
+									<Image width={160} height={120} src={post.data.heroImage} alt="" />
+								)}
+								<div class="small-post-info">
+									<h4>{post.data.title}</h4>
+									<FormattedDate date={post.data.pubDate} />
+								</div>
+							</a>
+						))}
+					</div>
+				</div>
+
+				<div class="sidebar-section">
+					<div class="ad-placeholder">
+						[ AD SPACE - 300x600 ]
+					</div>
+				</div>
+			</aside>
+
+			<!-- MAIN FEED RIGHT -->
+			<div class="main-feed">
+				{mainPosts.map((post) => (
+					<article class="article-card">
+						<a href={`/blog/${post.slug}/`} class="article-image-link">
+							{post.data.heroImage && (
+								<Image width={1024} height={512} src={post.data.heroImage} alt={post.data.title} />
+							)}
+						</a>
+						<div class="article-body">
+							<div class="article-meta">
+								<FormattedDate date={post.data.pubDate} />
+							</div>
+							<h2><a href={`/blog/${post.slug}/`}>{post.data.title}</a></h2>
+							<p class="article-description">{post.data.description}</p>
+							<a href={`/blog/${post.slug}/`} class="read-more-btn">
+								Read Full Review
+							</a>
+						</div>
+					</article>
+				))}
 			</div>
-			
-			<section>
-				<ul>
-					{
-						posts.map((post) => (
-							<li>
-								<a href={`/blog/${post.slug}/`}>
-									<img width={720} height={360} src={post.data.heroImage} alt="" />
-									<h4 class="title">{post.data.title}</h4>
-									<p class="date">
-										<FormattedDate date={post.data.pubDate} />
-									</p>
-								</a>
-							</li>
-						))
-					}
-				</ul>
-			</section>
 		</main>
+
 		<Footer />
 	</body>
 </html>

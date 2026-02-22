@@ -1,7 +1,7 @@
 ---
 title: 'The 5 Best Retro Handhelds Under $100 in 2026'
 description: 'You don''t need to spend a fortune. Here are the best budget consoles for playing Pokemon, Mario, and PS1 on the go.'
-pubDate: 'Feb 24 2026'
+pubDate: 'Feb 01 2026'
 heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 

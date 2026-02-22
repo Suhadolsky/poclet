@@ -1,7 +1,7 @@
 ---
 title: 'The Best Budget Handhelds 2026: Gaming for $50, $150, and $300'
 description: 'You dont need to spend $800 to have fun. We rank the best budget gaming handhelds of 2026 for every price point.'
-pubDate: 'Feb 21 2026'
+pubDate: 'Feb 22 2026'
 heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 

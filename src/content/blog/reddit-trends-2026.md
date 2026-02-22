@@ -1,7 +1,7 @@
 ---
 title: 'What’s Buzzing on Reddit: The 2026 Handheld Rankings Through the Eyes of the Community'
 description: 'Forget the marketing specs. We analyze what real users on r/Handhelds and r/SBCGaming are actually saying about the top consoles of 2026.'
-pubDate: 'Feb 21 2026'
+pubDate: 'Feb 22 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 

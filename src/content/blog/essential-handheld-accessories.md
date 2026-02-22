@@ -1,7 +1,7 @@
 ---
 title: 'The Ultimate Handheld Accessories Guide 2026: What to Buy and What to Skip'
 description: 'From fast microSD cards to ergonomic grips and portable power banks. We review the must-have accessories for Steam Deck, Switch 2, and ROG Ally.'
-pubDate: 'Feb 21 2026'
+pubDate: 'Feb 22 2026'
 heroImage: '../../assets/blog-placeholder-about.jpg'
 ---
 

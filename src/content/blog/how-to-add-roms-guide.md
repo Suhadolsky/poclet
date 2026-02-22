@@ -1,7 +1,7 @@
 ---
 title: 'Guide: How to Add Games (ROMs) and BIOS to Miyoo Mini Plus'
 description: 'Step-by-step guide to organizing your SD card for OnionOS. Where to put GBA, PS1, and BIOS files.'
-pubDate: 'Feb 25 2026'
+pubDate: 'Feb 01 2026'
 heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 

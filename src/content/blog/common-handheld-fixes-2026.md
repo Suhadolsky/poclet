@@ -1,7 +1,7 @@
 ---
 title: 'Black Screen? Broken Trigger? How to Fix Common Handheld Problems (2026)'
 description: 'Don’t panic! From the Miyoo Mini black screen of death to Retroid R2 triggers breaking, here are the most common fixes for portable consoles.'
-pubDate: 'Feb 25 2026'
+pubDate: 'Feb 01 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 

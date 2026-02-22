@@ -1,7 +1,7 @@
 ---
 title: 'How to Choose Your First Handheld Console in 2026: A Step-by-Step Guide'
 description: 'Buying a portable console? We break down budget, games, battery life, and ergonomics to help you find the perfect match.'
-pubDate: 'Feb 21 2026'
+pubDate: 'Feb 22 2026'
 heroImage: '../../assets/blog-placeholder-4.jpg'
 ---
 

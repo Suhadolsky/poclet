@@ -1,7 +1,7 @@
 ---
 title: 'What is a Portable Gaming Console in 2026? A Complete Guide'
 description: 'From PC-handhelds like Steam Deck to retro kings like Miyoo, we explain the handheld gaming landscape in 2026.'
-pubDate: 'Feb 21 2026'
+pubDate: 'Feb 22 2026'
 heroImage: '../../assets/blog-placeholder-2.jpg'
 ---
 

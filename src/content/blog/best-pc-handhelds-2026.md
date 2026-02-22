@@ -1,7 +1,7 @@
 ---
 title: 'The Best PC Handhelds of 2026: Steam Deck vs. ROG Ally X vs. Legion Go'
 description: 'Want to play your PC library on the go? We compare the three titans of the PC handheld world in 2026 to see which is best for you.'
-pubDate: 'Feb 21 2026'
+pubDate: 'Feb 22 2026'
 heroImage: '../../assets/blog-placeholder-3.jpg'
 ---
 

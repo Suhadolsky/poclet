@@ -1,7 +1,7 @@
 ---
 title: 'Must-Have Steam Deck OLED Accessories in 2026'
 description: 'Don''t leave home without them. The best docks, cases, power banks, and screen protectors for your Deck.'
-pubDate: 'Feb 26 2026'
+pubDate: 'Feb 01 2026'
 heroImage: '../../assets/blog-placeholder-1.jpg'
 ---
 

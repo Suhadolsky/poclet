@@ -1,7 +1,7 @@
 ---
 title: 'The 10 Best Gaming Handhelds of 2026: The Definitive Ranking'
 description: 'From the powerhouse MSI Claw 8 AI+ to the legendary Steam Deck OLED and the new Nintendo Switch 2. We rank the best portable consoles you can buy in 2026.'
-pubDate: 'Feb 21 2026'
+pubDate: 'Feb 22 2026'
 heroImage: '../../assets/blog-placeholder-about.jpg'
 ---
 

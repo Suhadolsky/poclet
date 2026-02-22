@@ -1,9 +1,9 @@
 import { defineCollection, z } from 'astro:content';
-import { glob } from 'astro/loaders';
+// import { files } from 'astro/loaders'; // Not needed for default collection loading
 
 const blog = defineCollection({
 	// Load Markdown and MDX files in the `src/content/blog/` directory.
-	loader: glob({ base: './src/content/blog', pattern: '**/*.{md,mdx}' }),
+	// loader: files({ base: './src/content/blog' }), // Astro automatically finds files in collections
 	// Type-check frontmatter using a schema
 	schema: ({ image }) =>
 		z.object({
@@ -17,7 +17,7 @@ const blog = defineCollection({
 });
 
 const devices = defineCollection({
-	loader: glob({ base: './src/content/devices', pattern: '**/*.{md,mdx}' }),
+	// loader: files({ base: './src/content/devices' }), // Astro automatically finds files in collections
 	schema: ({ image }) =>
 		z.object({
 			name: z.string(),

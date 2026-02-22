@@ -4,6 +4,7 @@ import BlogPost from '../../layouts/BlogPost.astro';
 
 export async function getStaticPaths() {
 	const posts = await getCollection('blog');
+
 	return posts
 		.filter((post) => post.slug !== 'index') // Ensure we don't create a route for /blog itself
 		.map((post) => ({

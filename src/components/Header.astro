@@ -6,7 +6,7 @@ import { SITE_TITLE } from '../consts';
 <header>
 	<nav>
 		<a href="/" class="logo-link">
-			<img src="/logo.svg" alt={SITE_TITLE} width="160" height="40" />
+			<img src="../../assets/logo.svg" alt={SITE_TITLE} width="160" height="40" />
 		</a>
 		<div class="internal-links">
 			<HeaderLink href="/">Home</HeaderLink>
@@ -15,6 +15,22 @@ import { SITE_TITLE } from '../consts';
 			<HeaderLink href="/blog">Reviews</HeaderLink>
 			<HeaderLink href="/about">About</HeaderLink>
 		</div>
+		<style>
+			.internal-links {
+				display: flex;
+				gap: 1em;
+			}
+			.internal-links a {
+				padding: 1em 0.5em;
+				color: #fff;
+				border-bottom: 4px solid transparent;
+				text-decoration: none;
+				white-space: nowrap; /* Prevent wrapping */
+			}
+			.internal-links a.active {
+				border-bottom-color: var(--accent);
+			}
+		</style>
 		<div class="social-links">
 			<a href="https://github.com/Suhadolsky" target="_blank">
 				<span class="sr-only">Go to GitHub</span>

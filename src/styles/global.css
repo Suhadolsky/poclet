@@ -2,11 +2,11 @@
 :root {
 	--accent: #00ff9d; /* Acid Green for gamer vibe */
 	--accent-dark: #00cc7a;
-	--black: 19, 21, 26; /* #13151a - Deep dark grey/blue */
+	--black: 10, 12, 15; /* Even deeper dark grey/blue */
 	--gray: 160, 160, 160;
-	--gray-light: 40, 44, 52; /* Lighter dark for cards */
+	--gray-light: 25, 28, 33; /* Slightly lighter dark for cards */
 	--gray-dark: 230, 230, 230; /* Text color */
-	--gray-gradient: rgba(var(--gray-light), 50%), #13151a;
+	--gray-gradient: rgba(var(--gray-light), 50%), var(--black);
 	--box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
 }
 
